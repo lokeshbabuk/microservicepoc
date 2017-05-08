@@ -8,10 +8,7 @@ import java.lang.Integer;
 import com.album.application.dao.Album;
 
 
-/**
- * @author M1028349
- *
- */
+
 public interface AlbumRepository extends CrudRepository<Album, Integer>{
 	
 	public Album findByTitle(String  title);
