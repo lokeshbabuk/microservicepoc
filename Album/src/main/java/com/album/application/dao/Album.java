@@ -8,10 +8,6 @@ import javax.persistence.Id;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-/**
- * @author M1028349
- *
- */
 
 @Entity
 public class Album {
